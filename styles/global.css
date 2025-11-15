@@ -1,0 +1,52 @@
+*, 
+* ::before, 
+* ::after { 
+  box-sizing: border-box;
+}
+
+*{ 
+  margin: 0;
+  padding: 0;
+  font: inherit;
+
+  -webkit-font-smoothinh: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+
+
+}
+
+:root{ 
+  --text-color-primary: #F4F4F5; 
+  --text-color-secondary: #A1A1AA; 
+  --stroke-color: #27272A; 
+  --suface-color: #18181B; 
+  --backgroud-color: #09090B; 
+  --brand-color-secondary: #FC4A1A; 
+  --brand-color-primary: #F7B733; 
+  --brand-gradient: linear-gradient(#FC4A1A, #F7B733 50% ); 
+
+
+
+--ff-sans: 'Inter', system-ui, sans-serif; 
+--fw-base:400; 
+--fw-md:500; 
+--fw-bold:800;
+
+
+--fs-sm: 0.875rem; 
+--fs-base: 1rem; 
+--fs-lg: 1.25rem; 
+--fs-xl: 1.5rem; 
+--fs-2xl: 2.5rem; 
+
+}
+
+
+html{ 
+font-family: var(--ff-sans);
+font-weight:var(--fw-base); 
+font-size:var(--fs-base);
+
+
+
+}
